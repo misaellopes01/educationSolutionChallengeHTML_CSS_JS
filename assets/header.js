@@ -14,16 +14,19 @@ window.addEventListener('scroll', () => {
 // Mobile Menu
 const menuBtn = document.querySelector('.menu-btn');
 const menuClick = document.querySelector('.choice');
+const footer = document.querySelector('footer');
 
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
 if(!menuOpen) {
     menuBtn.classList.add('open');
     header.classList.add('open');
+    footer.classList.add('open')
     menuOpen = true;
 } else {
     menuBtn.classList.remove('open');
     header.classList.remove('open');
+    footer.classList.remove('open')
     menuOpen = false;
 }
 });
@@ -31,6 +34,7 @@ if(!menuOpen) {
 menuClick.addEventListener('click', () => {
     header.classList.remove('open');
     menuBtn.classList.remove('open');
+    footer.classList.remove('open')
     menuOpen = false;
 })
 

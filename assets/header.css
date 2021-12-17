@@ -200,7 +200,6 @@ header .menu-btn {
     width: 100%;
   }
   header.open {
-    position: fixed;
     transition: all 0.25 ease-in-out;
     background-color: var(--white-primary);
     top: 0;
@@ -229,6 +228,9 @@ header .menu-btn {
   header nav ul li a {
     font-size: 1.5rem;
     font-weight: 500;
+  }
+  footer.open{
+    display: none;
   }
 }
 
