@@ -13,6 +13,7 @@ window.addEventListener('scroll', () => {
 
 // Mobile Menu
 const menuBtn = document.querySelector('.menu-btn');
+const menuClick = document.querySelector('.choice');
 
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
@@ -26,6 +27,12 @@ if(!menuOpen) {
     menuOpen = false;
 }
 });
+
+menuClick.addEventListener('click', () => {
+    header.classList.remove('open');
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+})
 
 // On Scroll Reveal
 let slideUp = {
