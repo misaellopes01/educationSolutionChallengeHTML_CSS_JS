@@ -365,7 +365,6 @@ main .newsletter {
   width: 58%;
   height: 280px;
   border-radius: 5px;
-  position: relative;
   margin-bottom: -7rem;
   display: flex;
   align-items: center;
