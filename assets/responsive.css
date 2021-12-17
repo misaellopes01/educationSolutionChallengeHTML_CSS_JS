@@ -1,0 +1,359 @@
+@media (min-width: 1370px) {
+  footer {
+    height: 400px;
+  }
+  footer .big-footer {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 7rem;
+  }
+}
+@media (max-width: 1366px) {
+  main .work-flow {
+    margin-bottom: 5rem;
+  }
+  main .testimonial {
+    width: 95%;
+    height: 400px;
+  }
+  footer {
+    height: 400px;
+  }
+  footer .big-footer {
+    width: 100%;
+    height: 60%;
+    padding-left: 5rem;
+  }
+
+  footer .big-footer .footer-content p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  footer .big-footer .footer-content a {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 1205px) {
+
+  main .testimonial article {
+    width: 322px;
+    height: 200px;
+  }
+  footer {
+    height: 400px;
+  }
+  footer .big-footer {
+    width: 100%;
+    height: 60%;
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  
+  main .testimonial article {
+    width: 280px;
+    height: 220px;
+    padding-right: 1rem;
+  }
+
+  footer {
+    height: 400px;
+  }
+  footer .big-footer {
+    width: 100%;
+    height: 60%;
+    padding: 0 6rem;
+  }
+  footer .big-footer .footer-content div:nth-child(2) {
+    width: 25%;
+    margin-left: 2rem;
+  }
+  footer .big-footer .footer-content div:nth-child(3) {
+    margin-left: 1rem;
+  }
+  footer .big-footer .footer-content div:nth-child(5) {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 320px) {
+ 
+  main .banner {
+    height: 100%;
+    background: url("../images/bg-curvy-mobile.svg") no-repeat #fff;
+    background-size: 100%;
+    background-position: bottom;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-top: 1rem;
+  }
+  main .banner .image {
+    width: 300px;
+    height: 30%;
+  }
+  main .banner .content {
+    width: 100%;
+    height: 70%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 1rem 0 0 0;
+  }
+  main .banner .content h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  main .banner .content p {
+    margin: 1rem 0 1rem 0;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  main .banner .content a {
+    margin: 0 auto;
+    font-size: 1.1rem;
+    padding: 0.8rem 3rem;
+    margin-bottom: 2rem;
+  }
+  main .about {
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+  main .about .image {
+    margin: 0 auto;
+    width: 90%;
+  
+  }
+  main .about .content {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  main .about .content h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  main .about .content p {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+  }
+  main .service {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  main .service h2:first-child {
+    font-size: 1.5rem;
+  }
+  main .service div {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0rem;
+    margin-bottom: 0rem;
+  }
+  main .service div:nth-child(1),
+  div:nth-child(2) {
+    margin-bottom: 0rem;
+  }
+  main .service div div h2 {
+    padding-top: 0.8rem;
+    font-size: 1.3rem;
+  }
+  main .service div div p {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 6.5rem;
+  }
+  main .service div div:nth-child(2) p {
+    padding: 0 2rem;
+    padding-top: 1rem;
+  }
+  main .service div div:nth-child(3) p {
+    padding: 0 1.5rem;
+    padding-top: 1rem;
+  }
+  main .work-flow {
+    margin: 0 auto;
+    flex-direction: column;
+    height: 750px;
+    width: 100%;
+    padding-top: 1rem;
+  }
+  main .work-flow .image {
+    width: 90%;
+    height: 30%;
+  }
+  main .work-flow .content {
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 70%;
+    padding-left: 0rem;
+    padding: 0 1rem;
+  }
+  main .work-flow .content h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-right: 0rem;
+    padding-left: 0.3rem;
+  }
+  main .work-flow .content p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0;
+    line-height: 1.5rem;
+  }
+  main .work-flow .content a {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+  }
+  main .testimonial {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: 42px 130px;
+    background-size: 5.5%;
+    padding: 0 0 5rem 0;
+  }
+  main .testimonial article {
+    width: 300px;
+    height: 180px;
+    padding: 1rem 1rem 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+  main .testimonial article div:nth-child(1) p {
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+  }
+  main .testimonial article div img {
+    margin-bottom: 0rem;
+  }
+
+  main .newsletter {
+    width: 90%;
+    height: 360px;
+    margin-bottom: -11rem;
+  }
+  main .newsletter div:nth-child(1) {
+    padding: 0 1rem;
+  }
+  main .newsletter div:nth-child(1) h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  main .newsletter div:nth-child(1) p {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+  main .newsletter form {
+    flex-direction: column;
+  }
+  main .newsletter form input {
+    width: 80%;
+    padding: 0.99rem 2rem;
+  }
+  main .newsletter form button {
+    width: 80%;
+    padding: 0.9rem 0;
+    margin-left: 0rem;
+    margin-top: 1.7rem;
+  }
+
+  footer {
+    width: 100%;
+    height: 800px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  footer .big-footer {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    margin: 0;
+    padding: 0 1rem 0 1.5rem;
+  }
+  footer .big-footer figure img {
+    margin-bottom: 3rem;
+  }
+
+  footer .big-footer .footer-content {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  footer .big-footer .footer-content div:nth-child(1) {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  footer .big-footer .footer-content div:nth-child(2) {
+    width: 90%;
+    height: max-content;
+    margin-left: 0rem;
+    margin-bottom: 3.5rem;
+  }
+  footer .big-footer .footer-content div:nth-child(3) {
+    width: 90%;
+    height: max-content;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+  }
+  footer .big-footer .footer-content div:nth-child(4) {
+    width: 90%;
+    height: max-content;
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+  }
+  footer .big-footer .footer-content div:nth-child(5) {
+    width: 90%;
+    height: max-content;
+    margin: 0 0 0 1rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  footer .attribution {
+    margin-top: 1rem;
+    font-size: 10px;
+  }
+}
